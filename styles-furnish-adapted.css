@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+  --bg:#f4f1eb;
+  --paper:#fff;
+  --ink:#222;
+  --muted:#7b7568;
+  --accent:#b98f68;
+  --line:#e8e1d6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Open Sans",sans-serif;line-height:1.75}
+a{color:#333;text-decoration:none;transition:.25s}
+a:hover{color:var(--accent)}
+.site{max-width:1140px;margin:0 auto;padding:24px}
+.top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:14px}
+.brand{font-family:"Marcellus",serif;letter-spacing:.05em;color:#6f6759;font-size:14px}
+.top nav a{margin-left:14px;color:#666;font-size:14px}
+.top-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.top-links a{font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:7px 11px;background:#fbf8f3;border:1px solid #ddd2c2;border-radius:2px}
+.layout{display:grid;grid-template-columns:280px 1fr;gap:26px}
+.toc{position:sticky;top:12px;align-self:start;background:var(--paper);border:1px solid var(--line);padding:16px;max-height:calc(100vh - 24px);overflow:auto}
+.toc h3{font-family:"Marcellus",serif;font-size:1.25rem;margin:0 0 10px}
+.toc ol{margin:0;padding-left:18px}
+.toc li{margin:7px 0;font-size:14px}
+main{background:var(--paper);border:1px solid var(--line);padding:28px 30px;background-image: linear-gradient(180deg, #fff, #fcfaf5)}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+h1,h2,h3{font-family:"Marcellus",serif;line-height:1.2;color:#2d2a25}
+h1{font-size:clamp(2rem,3.3vw,3rem);margin:.35rem 0 .85rem}
+h2{font-size:1.35rem;margin:1.2rem 0 .7rem}
+h3{font-size:1.05rem;margin:1rem 0 .45rem}
+.subtitle{margin:0 0 1rem;color:#7a7265}
+.summary-grid{display:grid;gap:12px}
+.summary-card{background:#fff;border:1px solid var(--line);padding:14px}
+.summary-card h3{margin:0 0 6px}
+.summary-card p{margin:0;color:#5e584d}
+.theme-block{margin-bottom:16px}
+.chapter-nav{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:14px;margin-top:22px}
+.chapter-nav a{background:#fbf8f3;border:1px solid #ddd2c2;padding:8px 11px}
+.chapter-nav a:hover{border-color:var(--accent)}
+@media (max-width:920px){.layout{grid-template-columns:1fr}.toc{position:static;max-height:none}main{padding:20px}}
