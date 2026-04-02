@@ -7,3 +7,9 @@ I got bogged down with commitees and meeting and eventually got let go when a pa
 For a long time I told myself the usual things. The market timing was off or I wasnt aggressive enough in asserting my vision. The sales team didn't execute. All of those things were probably true to some degree. But none of them were the real answer, and I think I knew that even then.
 
 The real answer was that we made decisions slowly, our team wasn't able to execute quickly effienctly or cheaply. We made a lot of decisions after I arrived the same way we did berfore I arrived. We made decsions with stale information or "vibes", and by the time we understood what was actually happening in the market, it was too late to do anything about it. We weren't stupid. We weren't lazy. We just had a broken decision loop, and we didn't even know it.
+
+
+
+
+******* Top down structer is fading for project based teams. *********
+******* Integrate past pm exp ****************************************
